@@ -5,17 +5,24 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --background_constant: #1a1a1a;
+  --foreground_constant: #ffffff;
+  /* For cube in background */
+  --c1: #1d1d1d;
+  --c2: #4e4f51;
+  --c3: #3c3c3c;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --c1: #1d1d1d;
+    --c2: #4e4f51;
+    --c3: #3c3c3c;
   }
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #1a1a1a;
 }
